@@ -9,6 +9,50 @@
 /* Begin PBXBuildFile section */
 		04844A5EA04D78DA28E33E4D /* Pods_FT_FTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3871CC80ECA00EE4105D5BE /* Pods_FT_FTUITests.framework */; };
 		43A0FD3724B8F3C50FA83B05 /* Pods_FT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33128FAD1E3C51936802CD5F /* Pods_FT.framework */; };
+		49335EF12CE9398C00642FD2 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EB52CE9398C00642FD2 /* String+Ext.swift */; };
+		49335EF22CE9398C00642FD2 /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EAE2CE9398C00642FD2 /* UIScrollView+Extensions.swift */; };
+		49335EF32CE9398C00642FD2 /* LXCore.docc in Sources */ = {isa = PBXBuildFile; fileRef = 49335ED72CE9398C00642FD2 /* LXCore.docc */; };
+		49335EF42CE9398C00642FD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335ED92CE9398C00642FD2 /* AppDelegate.swift */; };
+		49335EF52CE9398C00642FD2 /* LXCodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EB92CE9398C00642FD2 /* LXCodableExtension.swift */; };
+		49335EF62CE9398C00642FD2 /* LXCodableService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EBB2CE9398C00642FD2 /* LXCodableService.swift */; };
+		49335EF72CE9398C00642FD2 /* LXIOSCoreNetworkLayerTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EC72CE9398C00642FD2 /* LXIOSCoreNetworkLayerTargetType.swift */; };
+		49335EF82CE9398C00642FD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EE12CE9398C00642FD2 /* ViewController.swift */; };
+		49335EF92CE9398C00642FD2 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EAC2CE9398C00642FD2 /* UIImage+Extensions.swift */; };
+		49335EFA2CE9398C00642FD2 /* LXCoreExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EE52CE9398C00642FD2 /* LXCoreExampleUITests.swift */; };
+		49335EFB2CE9398C00642FD2 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EB02CE9398C00642FD2 /* UIView+Extensions.swift */; };
+		49335EFC2CE9398C00642FD2 /* LXCoreConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EC92CE9398C00642FD2 /* LXCoreConstraints.swift */; };
+		49335EFD2CE9398C00642FD2 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EAA2CE9398C00642FD2 /* UICollectionView+Extensions.swift */; };
+		49335EFE2CE9398C00642FD2 /* LXConstantsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EBF2CE9398C00642FD2 /* LXConstantsManager.swift */; };
+		49335EFF2CE9398C00642FD2 /* Codable+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EB32CE9398C00642FD2 /* Codable+Extended.swift */; };
+		49335F002CE9398C00642FD2 /* LXBaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EB72CE9398C00642FD2 /* LXBaseRepository.swift */; };
+		49335F012CE9398C00642FD2 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EB12CE9398C00642FD2 /* UIView+Nib.swift */; };
+		49335F022CE9398C00642FD2 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EAF2CE9398C00642FD2 /* UITableView+Extensions.swift */; };
+		49335F032CE9398C00642FD2 /* LXTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EC32CE9398C00642FD2 /* LXTargetType.swift */; };
+		49335F042CE9398C00642FD2 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EAD2CE9398C00642FD2 /* UILabel+Extensions.swift */; };
+		49335F052CE9398C00642FD2 /* LXCoreUIKitElementStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335ED32CE9398C00642FD2 /* LXCoreUIKitElementStyles.swift */; };
+		49335F062CE9398C00642FD2 /* LXCoreExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EE62CE9398C00642FD2 /* LXCoreExampleUITestsLaunchTests.swift */; };
+		49335F072CE9398C00642FD2 /* LXCoreInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335ECF2CE9398C00642FD2 /* LXCoreInputView.swift */; };
+		49335F082CE9398C00642FD2 /* LXCoreInputViewUserSpecifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335ED12CE9398C00642FD2 /* LXCoreInputViewUserSpecifications.swift */; };
+		49335F092CE9398C00642FD2 /* LXNetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EC12CE9398C00642FD2 /* LXNetworkResponse.swift */; };
+		49335F0A2CE9398C00642FD2 /* LXConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EBD2CE9398C00642FD2 /* LXConstants.swift */; };
+		49335F0B2CE9398C00642FD2 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EAB2CE9398C00642FD2 /* UIDevice+Extensions.swift */; };
+		49335F0C2CE9398C00642FD2 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EB42CE9398C00642FD2 /* Double+Extensions.swift */; };
+		49335F0D2CE9398C00642FD2 /* LXCoreExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EE32CE9398C00642FD2 /* LXCoreExampleTests.swift */; };
+		49335F0E2CE9398C00642FD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EE02CE9398C00642FD2 /* SceneDelegate.swift */; };
+		49335F0F2CE9398C00642FD2 /* LXCoreActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335ECC2CE9398C00642FD2 /* LXCoreActivityIndicatorView.swift */; };
+		49335F102CE9398C00642FD2 /* LXIOSCoreNetworkLayerBaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EC62CE9398C00642FD2 /* LXIOSCoreNetworkLayerBaseRepository.swift */; };
+		49335F112CE9398C00642FD2 /* LXIOSCoreNetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EC52CE9398C00642FD2 /* LXIOSCoreNetworkLayer.swift */; };
+		49335F122CE9398C00642FD2 /* LXCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335EE82CE9398C00642FD2 /* LXCoreTests.swift */; };
+		49335F132CE9398C00642FD2 /* LXCoreActivityIndicatorUserSpecifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335ECB2CE9398C00642FD2 /* LXCoreActivityIndicatorUserSpecifications.swift */; };
+		49335F142CE9398C00642FD2 /* LXCoreGradientArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49335ECD2CE9398C00642FD2 /* LXCoreGradientArcView.swift */; };
+		49335F152CE9398C00642FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49335EDA2CE9398C00642FD2 /* Assets.xcassets */; };
+		49335F162CE9398C00642FD2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49335EDB2CE9398C00642FD2 /* Info.plist */; };
+		49335F172CE9398C00642FD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49335EDD2CE9398C00642FD2 /* LaunchScreen.storyboard */; };
+		49335F182CE9398C00642FD2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 49335EEA2CE9398C00642FD2 /* .gitignore */; };
+		49335F192CE9398C00642FD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49335EDF2CE9398C00642FD2 /* Main.storyboard */; };
+		49335F1A2CE9398C00642FD2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 49335EED2CE9398C00642FD2 /* README.md */; };
+		49335F1B2CE9398C00642FD2 /* LXCoreInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49335ED02CE9398C00642FD2 /* LXCoreInputView.xib */; };
+		49335F1C2CE9398C00642FD2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 49335EEC2CE9398C00642FD2 /* Podfile */; };
 		DE523FAC673DEB4C265D7603 /* Pods_FTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16999D26442F41A9A0E4ACC9 /* Pods_FTTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +78,52 @@
 		33128FAD1E3C51936802CD5F /* Pods_FT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47209882B3F1295D3B576A34 /* Pods-FT-FTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FT-FTUITests.debug.xcconfig"; path = "Target Support Files/Pods-FT-FTUITests/Pods-FT-FTUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		48C7808CB89C3E2A73F41DA0 /* Pods-FTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTTests.release.xcconfig"; path = "Target Support Files/Pods-FTTests/Pods-FTTests.release.xcconfig"; sourceTree = "<group>"; };
+		49335EAA2CE9398C00642FD2 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		49335EAB2CE9398C00642FD2 /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
+		49335EAC2CE9398C00642FD2 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		49335EAD2CE9398C00642FD2 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		49335EAE2CE9398C00642FD2 /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
+		49335EAF2CE9398C00642FD2 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		49335EB02CE9398C00642FD2 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		49335EB12CE9398C00642FD2 /* UIView+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		49335EB32CE9398C00642FD2 /* Codable+Extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Extended.swift"; sourceTree = "<group>"; };
+		49335EB42CE9398C00642FD2 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		49335EB52CE9398C00642FD2 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		49335EB72CE9398C00642FD2 /* LXBaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXBaseRepository.swift; sourceTree = "<group>"; };
+		49335EB92CE9398C00642FD2 /* LXCodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXCodableExtension.swift; sourceTree = "<group>"; };
+		49335EBB2CE9398C00642FD2 /* LXCodableService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXCodableService.swift; sourceTree = "<group>"; };
+		49335EBD2CE9398C00642FD2 /* LXConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXConstants.swift; sourceTree = "<group>"; };
+		49335EBF2CE9398C00642FD2 /* LXConstantsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXConstantsManager.swift; sourceTree = "<group>"; };
+		49335EC12CE9398C00642FD2 /* LXNetworkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXNetworkResponse.swift; sourceTree = "<group>"; };
+		49335EC32CE9398C00642FD2 /* LXTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXTargetType.swift; sourceTree = "<group>"; };
+		49335EC52CE9398C00642FD2 /* LXIOSCoreNetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXIOSCoreNetworkLayer.swift; sourceTree = "<group>"; };
+		49335EC62CE9398C00642FD2 /* LXIOSCoreNetworkLayerBaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXIOSCoreNetworkLayerBaseRepository.swift; sourceTree = "<group>"; };
+		49335EC72CE9398C00642FD2 /* LXIOSCoreNetworkLayerTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXIOSCoreNetworkLayerTargetType.swift; sourceTree = "<group>"; };
+		49335EC92CE9398C00642FD2 /* LXCoreConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXCoreConstraints.swift; sourceTree = "<group>"; };
+		49335ECB2CE9398C00642FD2 /* LXCoreActivityIndicatorUserSpecifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXCoreActivityIndicatorUserSpecifications.swift; sourceTree = "<group>"; };
+		49335ECC2CE9398C00642FD2 /* LXCoreActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXCoreActivityIndicatorView.swift; sourceTree = "<group>"; };
+		49335ECD2CE9398C00642FD2 /* LXCoreGradientArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXCoreGradientArcView.swift; sourceTree = "<group>"; };
+		49335ECF2CE9398C00642FD2 /* LXCoreInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXCoreInputView.swift; sourceTree = "<group>"; };
+		49335ED02CE9398C00642FD2 /* LXCoreInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LXCoreInputView.xib; sourceTree = "<group>"; };
+		49335ED12CE9398C00642FD2 /* LXCoreInputViewUserSpecifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXCoreInputViewUserSpecifications.swift; sourceTree = "<group>"; };
+		49335ED32CE9398C00642FD2 /* LXCoreUIKitElementStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXCoreUIKitElementStyles.swift; sourceTree = "<group>"; };
+		49335ED62CE9398C00642FD2 /* iOSCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSCore.h; sourceTree = "<group>"; };
+		49335ED72CE9398C00642FD2 /* LXCore.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = LXCore.docc; sourceTree = "<group>"; };
+		49335ED92CE9398C00642FD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49335EDA2CE9398C00642FD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49335EDB2CE9398C00642FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49335EDC2CE9398C00642FD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49335EDE2CE9398C00642FD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49335EE02CE9398C00642FD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		49335EE12CE9398C00642FD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49335EE32CE9398C00642FD2 /* LXCoreExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXCoreExampleTests.swift; sourceTree = "<group>"; };
+		49335EE52CE9398C00642FD2 /* LXCoreExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXCoreExampleUITests.swift; sourceTree = "<group>"; };
+		49335EE62CE9398C00642FD2 /* LXCoreExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXCoreExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49335EE82CE9398C00642FD2 /* LXCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXCoreTests.swift; sourceTree = "<group>"; };
+		49335EEA2CE9398C00642FD2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		49335EEB2CE9398C00642FD2 /* LXCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LXCore.xcodeproj; sourceTree = "<group>"; };
+		49335EEC2CE9398C00642FD2 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		49335EED2CE9398C00642FD2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		498EC7D12CE921D0003911EB /* FT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		498EC7E72CE921D3003911EB /* FTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		498EC7F12CE921D3003911EB /* FTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,15 +155,11 @@
 		};
 		498EC7EA2CE921D3003911EB /* FTTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = FTTests;
 			sourceTree = "<group>";
 		};
 		498EC7F42CE921D3003911EB /* FTUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = FTUITests;
 			sourceTree = "<group>";
 		};
@@ -117,9 +203,230 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		49335EB22CE9398C00642FD2 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				49335EAA2CE9398C00642FD2 /* UICollectionView+Extensions.swift */,
+				49335EAB2CE9398C00642FD2 /* UIDevice+Extensions.swift */,
+				49335EAC2CE9398C00642FD2 /* UIImage+Extensions.swift */,
+				49335EAD2CE9398C00642FD2 /* UILabel+Extensions.swift */,
+				49335EAE2CE9398C00642FD2 /* UIScrollView+Extensions.swift */,
+				49335EAF2CE9398C00642FD2 /* UITableView+Extensions.swift */,
+				49335EB02CE9398C00642FD2 /* UIView+Extensions.swift */,
+				49335EB12CE9398C00642FD2 /* UIView+Nib.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		49335EB62CE9398C00642FD2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				49335EB22CE9398C00642FD2 /* UIKit */,
+				49335EB32CE9398C00642FD2 /* Codable+Extended.swift */,
+				49335EB42CE9398C00642FD2 /* Double+Extensions.swift */,
+				49335EB52CE9398C00642FD2 /* String+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		49335EB82CE9398C00642FD2 /* LXBaseRepository */ = {
+			isa = PBXGroup;
+			children = (
+				49335EB72CE9398C00642FD2 /* LXBaseRepository.swift */,
+			);
+			path = LXBaseRepository;
+			sourceTree = "<group>";
+		};
+		49335EBA2CE9398C00642FD2 /* LXCodableExtension */ = {
+			isa = PBXGroup;
+			children = (
+				49335EB92CE9398C00642FD2 /* LXCodableExtension.swift */,
+			);
+			path = LXCodableExtension;
+			sourceTree = "<group>";
+		};
+		49335EBC2CE9398C00642FD2 /* LXCodableService */ = {
+			isa = PBXGroup;
+			children = (
+				49335EBB2CE9398C00642FD2 /* LXCodableService.swift */,
+			);
+			path = LXCodableService;
+			sourceTree = "<group>";
+		};
+		49335EBE2CE9398C00642FD2 /* LXConstants */ = {
+			isa = PBXGroup;
+			children = (
+				49335EBD2CE9398C00642FD2 /* LXConstants.swift */,
+			);
+			path = LXConstants;
+			sourceTree = "<group>";
+		};
+		49335EC02CE9398C00642FD2 /* LXConstantsManager */ = {
+			isa = PBXGroup;
+			children = (
+				49335EBF2CE9398C00642FD2 /* LXConstantsManager.swift */,
+			);
+			path = LXConstantsManager;
+			sourceTree = "<group>";
+		};
+		49335EC22CE9398C00642FD2 /* LXNetworkResponse */ = {
+			isa = PBXGroup;
+			children = (
+				49335EC12CE9398C00642FD2 /* LXNetworkResponse.swift */,
+			);
+			path = LXNetworkResponse;
+			sourceTree = "<group>";
+		};
+		49335EC42CE9398C00642FD2 /* LXTargetType */ = {
+			isa = PBXGroup;
+			children = (
+				49335EC32CE9398C00642FD2 /* LXTargetType.swift */,
+			);
+			path = LXTargetType;
+			sourceTree = "<group>";
+		};
+		49335EC82CE9398C00642FD2 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				49335EC52CE9398C00642FD2 /* LXIOSCoreNetworkLayer.swift */,
+				49335EC62CE9398C00642FD2 /* LXIOSCoreNetworkLayerBaseRepository.swift */,
+				49335EC72CE9398C00642FD2 /* LXIOSCoreNetworkLayerTargetType.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		49335ECA2CE9398C00642FD2 /* Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				49335EC92CE9398C00642FD2 /* LXCoreConstraints.swift */,
+			);
+			path = Constraints;
+			sourceTree = "<group>";
+		};
+		49335ECE2CE9398C00642FD2 /* LXCoreActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				49335ECB2CE9398C00642FD2 /* LXCoreActivityIndicatorUserSpecifications.swift */,
+				49335ECC2CE9398C00642FD2 /* LXCoreActivityIndicatorView.swift */,
+				49335ECD2CE9398C00642FD2 /* LXCoreGradientArcView.swift */,
+			);
+			path = LXCoreActivityIndicator;
+			sourceTree = "<group>";
+		};
+		49335ED22CE9398C00642FD2 /* LXCoreInputView */ = {
+			isa = PBXGroup;
+			children = (
+				49335ECF2CE9398C00642FD2 /* LXCoreInputView.swift */,
+				49335ED02CE9398C00642FD2 /* LXCoreInputView.xib */,
+				49335ED12CE9398C00642FD2 /* LXCoreInputViewUserSpecifications.swift */,
+			);
+			path = LXCoreInputView;
+			sourceTree = "<group>";
+		};
+		49335ED42CE9398C00642FD2 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				49335ED32CE9398C00642FD2 /* LXCoreUIKitElementStyles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		49335ED52CE9398C00642FD2 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				49335ECA2CE9398C00642FD2 /* Constraints */,
+				49335ECE2CE9398C00642FD2 /* LXCoreActivityIndicator */,
+				49335ED22CE9398C00642FD2 /* LXCoreInputView */,
+				49335ED42CE9398C00642FD2 /* Styles */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		49335ED82CE9398C00642FD2 /* LXCore */ = {
+			isa = PBXGroup;
+			children = (
+				49335EB62CE9398C00642FD2 /* Extensions */,
+				49335EB82CE9398C00642FD2 /* LXBaseRepository */,
+				49335EBA2CE9398C00642FD2 /* LXCodableExtension */,
+				49335EBC2CE9398C00642FD2 /* LXCodableService */,
+				49335EBE2CE9398C00642FD2 /* LXConstants */,
+				49335EC02CE9398C00642FD2 /* LXConstantsManager */,
+				49335EC22CE9398C00642FD2 /* LXNetworkResponse */,
+				49335EC42CE9398C00642FD2 /* LXTargetType */,
+				49335EC82CE9398C00642FD2 /* NetworkLayer */,
+				49335ED52CE9398C00642FD2 /* UIComponents */,
+				49335ED62CE9398C00642FD2 /* iOSCore.h */,
+				49335ED72CE9398C00642FD2 /* LXCore.docc */,
+			);
+			path = LXCore;
+			sourceTree = "<group>";
+		};
+		49335EE22CE9398C00642FD2 /* LXCoreExample */ = {
+			isa = PBXGroup;
+			children = (
+				49335ED92CE9398C00642FD2 /* AppDelegate.swift */,
+				49335EDA2CE9398C00642FD2 /* Assets.xcassets */,
+				49335EDB2CE9398C00642FD2 /* Info.plist */,
+				49335EDD2CE9398C00642FD2 /* LaunchScreen.storyboard */,
+				49335EDF2CE9398C00642FD2 /* Main.storyboard */,
+				49335EE02CE9398C00642FD2 /* SceneDelegate.swift */,
+				49335EE12CE9398C00642FD2 /* ViewController.swift */,
+			);
+			path = LXCoreExample;
+			sourceTree = "<group>";
+		};
+		49335EE42CE9398C00642FD2 /* LXCoreExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				49335EE32CE9398C00642FD2 /* LXCoreExampleTests.swift */,
+			);
+			path = LXCoreExampleTests;
+			sourceTree = "<group>";
+		};
+		49335EE72CE9398C00642FD2 /* LXCoreExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49335EE52CE9398C00642FD2 /* LXCoreExampleUITests.swift */,
+				49335EE62CE9398C00642FD2 /* LXCoreExampleUITestsLaunchTests.swift */,
+			);
+			path = LXCoreExampleUITests;
+			sourceTree = "<group>";
+		};
+		49335EE92CE9398C00642FD2 /* LXCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				49335EE82CE9398C00642FD2 /* LXCoreTests.swift */,
+			);
+			path = LXCoreTests;
+			sourceTree = "<group>";
+		};
+		49335EEE2CE9398C00642FD2 /* LXCore */ = {
+			isa = PBXGroup;
+			children = (
+				49335ED82CE9398C00642FD2 /* LXCore */,
+				49335EE22CE9398C00642FD2 /* LXCoreExample */,
+				49335EE42CE9398C00642FD2 /* LXCoreExampleTests */,
+				49335EE72CE9398C00642FD2 /* LXCoreExampleUITests */,
+				49335EE92CE9398C00642FD2 /* LXCoreTests */,
+				49335EEA2CE9398C00642FD2 /* .gitignore */,
+				49335EEB2CE9398C00642FD2 /* LXCore.xcodeproj */,
+				49335EEC2CE9398C00642FD2 /* Podfile */,
+				49335EED2CE9398C00642FD2 /* README.md */,
+			);
+			path = LXCore;
+			sourceTree = "<group>";
+		};
+		49335EEF2CE9398C00642FD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		498EC7C82CE921D0003911EB = {
 			isa = PBXGroup;
 			children = (
+				49335EEE2CE9398C00642FD2 /* LXCore */,
 				498EC7D32CE921D0003911EB /* FT */,
 				498EC7EA2CE921D3003911EB /* FTTests */,
 				498EC7F42CE921D3003911EB /* FTUITests */,
@@ -149,7 +456,6 @@
 				B3C25B70DF14C593536A293E /* Pods-FTTests.debug.xcconfig */,
 				48C7808CB89C3E2A73F41DA0 /* Pods-FTTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -256,6 +562,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 498EC7D22CE921D0003911EB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 49335EEF2CE9398C00642FD2 /* Products */;
+					ProjectRef = 49335EEB2CE9398C00642FD2 /* LXCore.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				498EC7D02CE921D0003911EB /* FT */,
@@ -270,6 +582,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49335F152CE9398C00642FD2 /* Assets.xcassets in Resources */,
+				49335F162CE9398C00642FD2 /* Info.plist in Resources */,
+				49335F172CE9398C00642FD2 /* LaunchScreen.storyboard in Resources */,
+				49335F182CE9398C00642FD2 /* .gitignore in Resources */,
+				49335F192CE9398C00642FD2 /* Main.storyboard in Resources */,
+				49335F1A2CE9398C00642FD2 /* README.md in Resources */,
+				49335F1B2CE9398C00642FD2 /* LXCoreInputView.xib in Resources */,
+				49335F1C2CE9398C00642FD2 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +683,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49335EF12CE9398C00642FD2 /* String+Ext.swift in Sources */,
+				49335EF22CE9398C00642FD2 /* UIScrollView+Extensions.swift in Sources */,
+				49335EF32CE9398C00642FD2 /* LXCore.docc in Sources */,
+				49335EF42CE9398C00642FD2 /* AppDelegate.swift in Sources */,
+				49335EF52CE9398C00642FD2 /* LXCodableExtension.swift in Sources */,
+				49335EF62CE9398C00642FD2 /* LXCodableService.swift in Sources */,
+				49335EF72CE9398C00642FD2 /* LXIOSCoreNetworkLayerTargetType.swift in Sources */,
+				49335EF82CE9398C00642FD2 /* ViewController.swift in Sources */,
+				49335EF92CE9398C00642FD2 /* UIImage+Extensions.swift in Sources */,
+				49335EFA2CE9398C00642FD2 /* LXCoreExampleUITests.swift in Sources */,
+				49335EFB2CE9398C00642FD2 /* UIView+Extensions.swift in Sources */,
+				49335EFC2CE9398C00642FD2 /* LXCoreConstraints.swift in Sources */,
+				49335EFD2CE9398C00642FD2 /* UICollectionView+Extensions.swift in Sources */,
+				49335EFE2CE9398C00642FD2 /* LXConstantsManager.swift in Sources */,
+				49335EFF2CE9398C00642FD2 /* Codable+Extended.swift in Sources */,
+				49335F002CE9398C00642FD2 /* LXBaseRepository.swift in Sources */,
+				49335F012CE9398C00642FD2 /* UIView+Nib.swift in Sources */,
+				49335F022CE9398C00642FD2 /* UITableView+Extensions.swift in Sources */,
+				49335F032CE9398C00642FD2 /* LXTargetType.swift in Sources */,
+				49335F042CE9398C00642FD2 /* UILabel+Extensions.swift in Sources */,
+				49335F052CE9398C00642FD2 /* LXCoreUIKitElementStyles.swift in Sources */,
+				49335F062CE9398C00642FD2 /* LXCoreExampleUITestsLaunchTests.swift in Sources */,
+				49335F072CE9398C00642FD2 /* LXCoreInputView.swift in Sources */,
+				49335F082CE9398C00642FD2 /* LXCoreInputViewUserSpecifications.swift in Sources */,
+				49335F092CE9398C00642FD2 /* LXNetworkResponse.swift in Sources */,
+				49335F0A2CE9398C00642FD2 /* LXConstants.swift in Sources */,
+				49335F0B2CE9398C00642FD2 /* UIDevice+Extensions.swift in Sources */,
+				49335F0C2CE9398C00642FD2 /* Double+Extensions.swift in Sources */,
+				49335F0D2CE9398C00642FD2 /* LXCoreExampleTests.swift in Sources */,
+				49335F0E2CE9398C00642FD2 /* SceneDelegate.swift in Sources */,
+				49335F0F2CE9398C00642FD2 /* LXCoreActivityIndicatorView.swift in Sources */,
+				49335F102CE9398C00642FD2 /* LXIOSCoreNetworkLayerBaseRepository.swift in Sources */,
+				49335F112CE9398C00642FD2 /* LXIOSCoreNetworkLayer.swift in Sources */,
+				49335F122CE9398C00642FD2 /* LXCoreTests.swift in Sources */,
+				49335F132CE9398C00642FD2 /* LXCoreActivityIndicatorUserSpecifications.swift in Sources */,
+				49335F142CE9398C00642FD2 /* LXCoreGradientArcView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +750,25 @@
 			targetProxy = 498EC7F22CE921D3003911EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49335EDD2CE9398C00642FD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49335EDC2CE9398C00642FD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		49335EDF2CE9398C00642FD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49335EDE2CE9398C00642FD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		498EC7FB2CE921D3003911EB /* Debug */ = {
