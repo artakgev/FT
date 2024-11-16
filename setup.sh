@@ -1,1 +1,1 @@
-git add submodule https://github.com/artakgev/LXCore.git
+git submodule add https://github.com/artakgev/LXCore.git

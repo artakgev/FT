@@ -70,8 +70,8 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 
-#YTPayments/Resources/Assets/Assets+Generated.swift
-#YTPayments/Resources/Fonts/Fonts+Generated.swift
-#YTPayments/Resources/Storyboards/Segues+Generated.swift
-#YTPayments/Resources/Storyboards/Storyboards+Generated.swift
-#YTPayments/Resources/Assets/Assets+Generated.swift
+# Git submodules
+
+LXCore/
+.gitmodules
+
