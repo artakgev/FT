@@ -72,6 +72,5 @@ fastlane/test_output
 
 # Git submodules
 
-LXCore/
 .gitmodules
 
