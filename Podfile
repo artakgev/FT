@@ -6,7 +6,11 @@ target 'FT' do
   use_frameworks!
 
   # Pods for FT
-
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+  pod 'SwiftGen', '~> 6.0'
+  pod 'Kingfisher', '~> 7.9'
+  
   target 'FTTests' do
     inherit! :search_paths
     # Pods for testing
