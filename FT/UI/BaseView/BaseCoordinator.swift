@@ -23,18 +23,10 @@ class Coordinator {
     
     func start() {
         let splashVC = StoryboardScene.SplashView.splashVC.instantiate()
-//        let splashVC = StoryboardScene.Main.recipesVC.instantiate()
         let vm = SplashVM()
         splashVC.vm = vm
         vm.coordinator = self
-        
-//        navigationController.pushViewController(vc, animated: true)
         navigationController.show(splashVC, sender: self)
-//        navigationController.setViewControllers([vc], animated: true)
-
-//        splashVC.navigationController?.pushViewController(vc, animated: true)
-//        navigationController.pushViewController(vc, animated: true)
-//        print(navigationController.viewControllers)
     }
 
     func goBack() {

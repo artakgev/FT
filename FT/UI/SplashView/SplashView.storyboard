@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -15,8 +14,21 @@
                     <view key="view" contentMode="scaleToFill" id="cTm-SB-5Bs">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fetch_logo" translatesAutoresizingMaskIntoConstraints="NO" id="XfW-JD-mb3">
+                                <rect key="frame" x="46.666666666666657" y="304.66666666666669" width="300" height="243.00000000000006"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="243" id="o8i-2i-yzB"/>
+                                    <constraint firstAttribute="width" constant="300" id="yjU-aF-2O9"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="jhR-42-3Or"/>
-                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="XfW-JD-mb3" firstAttribute="centerX" secondItem="cTm-SB-5Bs" secondAttribute="centerX" id="JUa-dG-nMs"/>
+                            <constraint firstItem="XfW-JD-mb3" firstAttribute="centerY" secondItem="cTm-SB-5Bs" secondAttribute="centerY" id="tBo-pJ-hmy"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qce-6b-sa3"/>
                 </viewController>
@@ -24,10 +36,10 @@
             </objects>
             <point key="canvasLocation" x="1202.2900763358778" y="145.77464788732394"/>
         </scene>
-        <!--SAMO-->
+        <!--Navigation Controller-->
         <scene sceneID="nfL-aQ-sy7">
             <objects>
-                <navigationController storyboardIdentifier="BaseNavigationController" title="SAMO" automaticallyAdjustsScrollViewInsets="NO" id="2Q6-9f-Fsd" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="BaseNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="2Q6-9f-Fsd" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="E09-fK-fVc">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -41,8 +53,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
+        <image name="fetch_logo" width="518" height="419"/>
     </resources>
 </document>

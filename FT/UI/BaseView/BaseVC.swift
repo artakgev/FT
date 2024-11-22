@@ -184,8 +184,7 @@ class BaseVC: UIViewController, VMToVCExchange, LXCoreNavigationBarDelegate, UIG
     private func commonInitUIElements() {
 
         
-        self.navigationController?.navigationBar.isHidden = self is SplashVC ||
-        self is RecipesVC
+        self.navigationController?.navigationBar.isHidden = self is SplashVC || self is RecipesVC
         
 
         if self.lxCoreNavigationBarView != nil {
