@@ -94,7 +94,6 @@
 		48C7808CB89C3E2A73F41DA0 /* Pods-FTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTTests.release.xcconfig"; path = "Target Support Files/Pods-FTTests/Pods-FTTests.release.xcconfig"; sourceTree = "<group>"; };
 		4900962A2CECFBCF00ED97BD /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		4900962B2CECFBCF00ED97BD /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
-		4900962E2CECFBCF00ED97BD /* RegisterVerifyMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RegisterVerifyMock.json; sourceTree = "<group>"; };
 		490096322CECFBCF00ED97BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		490096332CECFBCF00ED97BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		490096342CECFBCF00ED97BD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -230,7 +229,6 @@
 			isa = PBXGroup;
 			children = (
 				49D2FD4C2CECFCD600F19806 /* RecipesRepo.swift */,
-				4900962E2CECFBCF00ED97BD /* RegisterVerifyMock.json */,
 			);
 			path = Recipes;
 			sourceTree = "<group>";
